@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45BC14A622AB4986000C8124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC14A522AB4986000C8124 /* AppDelegate.swift */; };
+		45BC14A822AB4986000C8124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC14A722AB4986000C8124 /* ViewController.swift */; };
+		45BC14AB22AB4986000C8124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BC14A922AB4986000C8124 /* Main.storyboard */; };
+		45BC14AD22AB4988000C8124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BC14AC22AB4988000C8124 /* Assets.xcassets */; };
+		45BC14B022AB4988000C8124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BC14AE22AB4988000C8124 /* LaunchScreen.storyboard */; };
+		45BC14BB22AB4988000C8124 /* Simple_SMS_FilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC14BA22AB4988000C8124 /* Simple_SMS_FilterTests.swift */; };
+		45BC14C622AB4988000C8124 /* Simple_SMS_FilterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC14C522AB4988000C8124 /* Simple_SMS_FilterUITests.swift */; };
+		45BC14E822AB522F000C8124 /* MessageFilterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BC14E722AB522F000C8124 /* MessageFilterExtension.swift */; };
+		45BC14EC22AB522F000C8124 /* The Actual Filter.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 45BC14E522AB522F000C8124 /* The Actual Filter.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45BC14B722AB4988000C8124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45BC149A22AB4986000C8124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BC14A122AB4986000C8124;
+			remoteInfo = "Simple SMS Filter";
+		};
+		45BC14C222AB4988000C8124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45BC149A22AB4986000C8124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BC14A122AB4986000C8124;
+			remoteInfo = "Simple SMS Filter";
+		};
+		45BC14EA22AB522F000C8124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45BC149A22AB4986000C8124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BC14E422AB522F000C8124;
+			remoteInfo = "The Actual Filter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45BC14F022AB522F000C8124 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				45BC14EC22AB522F000C8124 /* The Actual Filter.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		45BC14A222AB4986000C8124 /* Simple SMS Filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple SMS Filter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BC14A522AB4986000C8124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45BC14A722AB4986000C8124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		45BC14AA22AB4986000C8124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45BC14AC22AB4988000C8124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45BC14AF22AB4988000C8124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45BC14B122AB4988000C8124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BC14B622AB4988000C8124 /* Simple SMS FilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple SMS FilterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BC14BA22AB4988000C8124 /* Simple_SMS_FilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_SMS_FilterTests.swift; sourceTree = "<group>"; };
+		45BC14BC22AB4988000C8124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BC14C122AB4988000C8124 /* Simple SMS FilterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple SMS FilterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BC14C522AB4988000C8124 /* Simple_SMS_FilterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_SMS_FilterUITests.swift; sourceTree = "<group>"; };
+		45BC14C722AB4988000C8124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BC14E522AB522F000C8124 /* The Actual Filter.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "The Actual Filter.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BC14E722AB522F000C8124 /* MessageFilterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageFilterExtension.swift; sourceTree = "<group>"; };
+		45BC14E922AB522F000C8124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45BC149F22AB4986000C8124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BC14B322AB4988000C8124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BC14BE22AB4988000C8124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BC14E222AB522F000C8124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45BC149922AB4986000C8124 = {
+			isa = PBXGroup;
+			children = (
+				45BC14A422AB4986000C8124 /* Simple SMS Filter */,
+				45BC14B922AB4988000C8124 /* Simple SMS FilterTests */,
+				45BC14C422AB4988000C8124 /* Simple SMS FilterUITests */,
+				45BC14E622AB522F000C8124 /* The Actual Filter */,
+				45BC14A322AB4986000C8124 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45BC14A322AB4986000C8124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45BC14A222AB4986000C8124 /* Simple SMS Filter.app */,
+				45BC14B622AB4988000C8124 /* Simple SMS FilterTests.xctest */,
+				45BC14C122AB4988000C8124 /* Simple SMS FilterUITests.xctest */,
+				45BC14E522AB522F000C8124 /* The Actual Filter.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45BC14A422AB4986000C8124 /* Simple SMS Filter */ = {
+			isa = PBXGroup;
+			children = (
+				45BC14A522AB4986000C8124 /* AppDelegate.swift */,
+				45BC14A722AB4986000C8124 /* ViewController.swift */,
+				45BC14A922AB4986000C8124 /* Main.storyboard */,
+				45BC14AC22AB4988000C8124 /* Assets.xcassets */,
+				45BC14AE22AB4988000C8124 /* LaunchScreen.storyboard */,
+				45BC14B122AB4988000C8124 /* Info.plist */,
+			);
+			path = "Simple SMS Filter";
+			sourceTree = "<group>";
+		};
+		45BC14B922AB4988000C8124 /* Simple SMS FilterTests */ = {
+			isa = PBXGroup;
+			children = (
+				45BC14BA22AB4988000C8124 /* Simple_SMS_FilterTests.swift */,
+				45BC14BC22AB4988000C8124 /* Info.plist */,
+			);
+			path = "Simple SMS FilterTests";
+			sourceTree = "<group>";
+		};
+		45BC14C422AB4988000C8124 /* Simple SMS FilterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45BC14C522AB4988000C8124 /* Simple_SMS_FilterUITests.swift */,
+				45BC14C722AB4988000C8124 /* Info.plist */,
+			);
+			path = "Simple SMS FilterUITests";
+			sourceTree = "<group>";
+		};
+		45BC14E622AB522F000C8124 /* The Actual Filter */ = {
+			isa = PBXGroup;
+			children = (
+				45BC14E722AB522F000C8124 /* MessageFilterExtension.swift */,
+				45BC14E922AB522F000C8124 /* Info.plist */,
+			);
+			path = "The Actual Filter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45BC14A122AB4986000C8124 /* Simple SMS Filter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BC14CA22AB4988000C8124 /* Build configuration list for PBXNativeTarget "Simple SMS Filter" */;
+			buildPhases = (
+				45BC149E22AB4986000C8124 /* Sources */,
+				45BC149F22AB4986000C8124 /* Frameworks */,
+				45BC14A022AB4986000C8124 /* Resources */,
+				45BC14F022AB522F000C8124 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45BC14EB22AB522F000C8124 /* PBXTargetDependency */,
+			);
+			name = "Simple SMS Filter";
+			productName = "Simple SMS Filter";
+			productReference = 45BC14A222AB4986000C8124 /* Simple SMS Filter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45BC14B522AB4988000C8124 /* Simple SMS FilterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BC14CD22AB4988000C8124 /* Build configuration list for PBXNativeTarget "Simple SMS FilterTests" */;
+			buildPhases = (
+				45BC14B222AB4988000C8124 /* Sources */,
+				45BC14B322AB4988000C8124 /* Frameworks */,
+				45BC14B422AB4988000C8124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45BC14B822AB4988000C8124 /* PBXTargetDependency */,
+			);
+			name = "Simple SMS FilterTests";
+			productName = "Simple SMS FilterTests";
+			productReference = 45BC14B622AB4988000C8124 /* Simple SMS FilterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45BC14C022AB4988000C8124 /* Simple SMS FilterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BC14D022AB4988000C8124 /* Build configuration list for PBXNativeTarget "Simple SMS FilterUITests" */;
+			buildPhases = (
+				45BC14BD22AB4988000C8124 /* Sources */,
+				45BC14BE22AB4988000C8124 /* Frameworks */,
+				45BC14BF22AB4988000C8124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45BC14C322AB4988000C8124 /* PBXTargetDependency */,
+			);
+			name = "Simple SMS FilterUITests";
+			productName = "Simple SMS FilterUITests";
+			productReference = 45BC14C122AB4988000C8124 /* Simple SMS FilterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		45BC14E422AB522F000C8124 /* The Actual Filter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BC14ED22AB522F000C8124 /* Build configuration list for PBXNativeTarget "The Actual Filter" */;
+			buildPhases = (
+				45BC14E122AB522F000C8124 /* Sources */,
+				45BC14E222AB522F000C8124 /* Frameworks */,
+				45BC14E322AB522F000C8124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Actual Filter";
+			productName = "The Actual Filter";
+			productReference = 45BC14E522AB522F000C8124 /* The Actual Filter.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45BC149A22AB4986000C8124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Mustafa Hussain";
+				TargetAttributes = {
+					45BC14A122AB4986000C8124 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					45BC14B522AB4988000C8124 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 45BC14A122AB4986000C8124;
+					};
+					45BC14C022AB4988000C8124 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 45BC14A122AB4986000C8124;
+					};
+					45BC14E422AB522F000C8124 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 45BC149D22AB4986000C8124 /* Build configuration list for PBXProject "Simple SMS Filter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45BC149922AB4986000C8124;
+			productRefGroup = 45BC14A322AB4986000C8124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45BC14A122AB4986000C8124 /* Simple SMS Filter */,
+				45BC14B522AB4988000C8124 /* Simple SMS FilterTests */,
+				45BC14C022AB4988000C8124 /* Simple SMS FilterUITests */,
+				45BC14E422AB522F000C8124 /* The Actual Filter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45BC14A022AB4986000C8124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BC14B022AB4988000C8124 /* LaunchScreen.storyboard in Resources */,
+				45BC14AD22AB4988000C8124 /* Assets.xcassets in Resources */,
+				45BC14AB22AB4986000C8124 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BC14B422AB4988000C8124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BC14BF22AB4988000C8124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BC14E322AB522F000C8124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45BC149E22AB4986000C8124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BC14A822AB4986000C8124 /* ViewController.swift in Sources */,
+				45BC14A622AB4986000C8124 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BC14B222AB4988000C8124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BC14BB22AB4988000C8124 /* Simple_SMS_FilterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BC14BD22AB4988000C8124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BC14C622AB4988000C8124 /* Simple_SMS_FilterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BC14E122AB522F000C8124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BC14E822AB522F000C8124 /* MessageFilterExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45BC14B822AB4988000C8124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45BC14A122AB4986000C8124 /* Simple SMS Filter */;
+			targetProxy = 45BC14B722AB4988000C8124 /* PBXContainerItemProxy */;
+		};
+		45BC14C322AB4988000C8124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45BC14A122AB4986000C8124 /* Simple SMS Filter */;
+			targetProxy = 45BC14C222AB4988000C8124 /* PBXContainerItemProxy */;
+		};
+		45BC14EB22AB522F000C8124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45BC14E422AB522F000C8124 /* The Actual Filter */;
+			targetProxy = 45BC14EA22AB522F000C8124 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45BC14A922AB4986000C8124 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45BC14AA22AB4986000C8124 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45BC14AE22AB4988000C8124 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45BC14AF22AB4988000C8124 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45BC14C822AB4988000C8124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45BC14C922AB4988000C8124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45BC14CB22AB4988000C8124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8PWTN5KJ3;
+				INFOPLIST_FILE = "Simple SMS Filter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Simple-SMS-Filter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45BC14CC22AB4988000C8124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8PWTN5KJ3;
+				INFOPLIST_FILE = "Simple SMS Filter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Simple-SMS-Filter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45BC14CE22AB4988000C8124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8PWTN5KJ3;
+				INFOPLIST_FILE = "Simple SMS FilterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Simple-SMS-FilterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple SMS Filter.app/Simple SMS Filter";
+			};
+			name = Debug;
+		};
+		45BC14CF22AB4988000C8124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8PWTN5KJ3;
+				INFOPLIST_FILE = "Simple SMS FilterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Simple-SMS-FilterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simple SMS Filter.app/Simple SMS Filter";
+			};
+			name = Release;
+		};
+		45BC14D122AB4988000C8124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8PWTN5KJ3;
+				INFOPLIST_FILE = "Simple SMS FilterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Simple-SMS-FilterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simple SMS Filter";
+			};
+			name = Debug;
+		};
+		45BC14D222AB4988000C8124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8PWTN5KJ3;
+				INFOPLIST_FILE = "Simple SMS FilterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Simple-SMS-FilterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simple SMS Filter";
+			};
+			name = Release;
+		};
+		45BC14EE22AB522F000C8124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8PWTN5KJ3;
+				INFOPLIST_FILE = "The Actual Filter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Simple-SMS-Filter.The-Actual-Filter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45BC14EF22AB522F000C8124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8PWTN5KJ3;
+				INFOPLIST_FILE = "The Actual Filter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Simple-SMS-Filter.The-Actual-Filter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45BC149D22AB4986000C8124 /* Build configuration list for PBXProject "Simple SMS Filter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BC14C822AB4988000C8124 /* Debug */,
+				45BC14C922AB4988000C8124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BC14CA22AB4988000C8124 /* Build configuration list for PBXNativeTarget "Simple SMS Filter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BC14CB22AB4988000C8124 /* Debug */,
+				45BC14CC22AB4988000C8124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BC14CD22AB4988000C8124 /* Build configuration list for PBXNativeTarget "Simple SMS FilterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BC14CE22AB4988000C8124 /* Debug */,
+				45BC14CF22AB4988000C8124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BC14D022AB4988000C8124 /* Build configuration list for PBXNativeTarget "Simple SMS FilterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BC14D122AB4988000C8124 /* Debug */,
+				45BC14D222AB4988000C8124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BC14ED22AB522F000C8124 /* Build configuration list for PBXNativeTarget "The Actual Filter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BC14EE22AB522F000C8124 /* Debug */,
+				45BC14EF22AB522F000C8124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45BC149A22AB4986000C8124 /* Project object */;
+}
